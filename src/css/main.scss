@@ -1,0 +1,40 @@
+$primeC: #ffffff;
+$taptap_pcolor: #e04b40;
+$padding_prime: 20px;
+$padding_main: 20px;
+
+nav{
+    background-color: $primeC;
+    width: 100%;
+    height: auto;
+    .nav-box{
+        background-color: $primeC;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        .logo-box{
+            background-color: $primeC;
+            padding: 40px 60px;
+            height: auto;
+            img{
+                vertical-align:bottom;
+                width: 100px;
+            }
+        }
+        .vRel{
+            flex: 1;
+            justify-content: flex-end;
+            float: right;
+            box-sizing: border-box;
+            .vBox{
+                font-family: 'Roboto', sans-serif;
+                color: #aaa;
+                padding-right: $padding_main;
+            }
+        }
+    }
+}
+
+main{
+
+}

@@ -1,0 +1,37 @@
+main{
+    .box{
+        height: 60vh;
+        .otto{
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: rgba(125, 125, 125, 0.4) 0 0 10px 0;
+            border-radius: 13px;
+            .dollar{
+                font-size: 30px;
+                margin: 20px 0;
+            }
+            .benef{
+                font-size: 25px;
+                margin: 20px 0 10px 0;
+            }
+            .go{
+                margin-bottom: 10px;
+                font-size: 20px;   
+            }
+            .b3{
+                padding: 10px 20px;
+                display: inline-block;
+                border-radius: 12px;
+                background-color: #f4627c;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    .button_p{
+                        font-family: 'K2D', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
