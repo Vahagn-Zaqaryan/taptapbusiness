@@ -19,7 +19,7 @@ class App extends Component {
                         <div className="b3">
                             <Link to="./demo">
                                 <div className="button_p">
-                                    Start with 1000$/month
+                                    Start with TapTap
                                 </div>
                             </Link>
                         </div>
