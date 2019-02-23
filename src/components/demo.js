@@ -15,19 +15,19 @@ class App extends Component {
                         </div>
                         <div className="bg1">
                             <a href="https://taptapbehero.firebaseapp.com" target="_blank">
-                                https://taptapbehero.firebaseapp.com*
+                                <span className="link">https://taptapbehero.firebaseapp.com</span><span>*</span>
                             </a>
                         </div>
                         <div className="u9">
                             *Browse on mobile for optimal user experience
                         </div>
-                        <div className="b3">
-                            <Link to="./price">
+                        <Link to="./price">
+                            <div className="b3">
                                 <div className="button_p">
-                                    NEXT
+                                    Next
                                 </div>
-                            </Link>
-                        </div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </main>

@@ -26,13 +26,13 @@ class App extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="b3">
-                            <Link to="./mail">
+                        <Link to="./mail">
+                            <div className="b3">
                                 <div className="button_p">
                                     Order
                                 </div>
-                            </Link>
-                        </div>
+                            </div>
+                        </Link>
                         <div className="u8">
                             *Yearly subscription based on your average yearly visitor amount.
                         </div>

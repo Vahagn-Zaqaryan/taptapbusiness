@@ -26,12 +26,10 @@ main{
                 border-radius: 12px;
                 background-color: #f4627c;
                 transition: all .3s;
-                a{
-                    color: #fff;
-                    text-decoration: none;
-                    .button_p{
-                        font-family: 'K2D', sans-serif;
-                    }
+                color: #fff;
+                text-decoration: none;
+                .button_p{
+                    font-family: 'K2D', sans-serif;
                 }
                 &:hover{
                     background-color: #d2405a;

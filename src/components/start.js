@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import '../css/start.min.css';
 import '../css/style.min.css';
 import '../css/tss.min.css';
-import '../css/start.min.css';
 
 class App extends Component {
     render() {
@@ -16,13 +16,13 @@ class App extends Component {
                         <div className="b2">
                             For Upsale, Memorability, PR
                         </div>
-                        <div className="b3">
-                            <Link to="./demo">
+                        <Link to="./demo">
+                            <div className="b3">
                                 <div className="button_p">
                                     Start with TapTap
                                 </div>
-                            </Link>
-                        </div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </main>
