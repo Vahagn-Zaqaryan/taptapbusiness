@@ -11,7 +11,7 @@ class App extends Component {
                 <div className="d--flex justify-center align-center box">
                     <div className="o">
                         <div className="bg1 ultra">
-                            Our Email
+                            Request a Demo via Email! 
                         </div>
                         <div className="bg1">
                             <a href="">

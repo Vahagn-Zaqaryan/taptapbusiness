@@ -11,14 +11,16 @@ class App extends Component {
                 <div className="d--flex justify-center align-center box">
                     <div className="o">
                         <div className="bg1 ultra">
-                            Tour Demo
+                            Example of a Gamified Tour
                         </div>
                         <div className="bg1">
-                            <a href="https://taptapbehero.firebaseapp.com">
-                                https://taptapbehero.firebaseapp.com
+                            <a href="https://taptapbehero.firebaseapp.com" target="_blank">
+                                https://taptapbehero.firebaseapp.com*
                             </a>
                         </div>
-
+                        <div className="u9">
+                            *Browse on mobile for optimal user experience
+                        </div>
                         <div className="b3">
                             <Link to="./price">
                                 <div className="button_p">

@@ -11,7 +11,7 @@ class App extends Component {
                 <div className="d--flex justify-center align-center box">
                     <div className="o">
                         <div className="b1">
-                            Gamify Your Cultural Tour <span>Destination!</  span>
+                            Gamify Your Cultural Tour <span>Destination!</span>
                         </div>
                         <div className="b2">
                             For Upsale, Memorability, PR

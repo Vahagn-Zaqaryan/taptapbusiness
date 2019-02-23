@@ -10,31 +10,31 @@ class App extends Component {
             <main>
                 <div className="d--flex justify-center align-center box">
                     <div className="otto">
-                        <div className="dollar">
-                            $1000/month
-                        </div>
                         <div className="bbox">
                             <div className="benef">
                                 Benefits
                             </div>
                             <div className="go">
                                 <div className="g5">
-                                    5 Game elements
+                                    5+ Game elements
                                 </div>
                                 <div className="s5">
-                                    5 Story elements
+                                    5+ Story elements
                                 </div>
                                 <div className="u5">
-                                    5000 users/year
+                                    5000+ users/year
                                 </div>
                             </div>
                         </div>
                         <div className="b3">
                             <Link to="./mail">
                                 <div className="button_p">
-                                    ORDER
+                                    Order
                                 </div>
                             </Link>
+                        </div>
+                        <div className="u8">
+                            *Yearly subscription based on your average yearly visitor amount.
                         </div>
                     </div>
                 </div>

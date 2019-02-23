@@ -12,18 +12,20 @@ main{
                 margin: 20px 0;
             }
             .benef{
+                font-weight: 600;
                 font-size: 25px;
-                margin: 20px 0 10px 0;
+                margin: 20px 0 30px 0;
             }
             .go{
-                margin-bottom: 10px;
-                font-size: 20px;   
+                margin-bottom: 50px;
+                font-size: 20px;
             }
             .b3{
                 padding: 10px 20px;
                 display: inline-block;
                 border-radius: 12px;
                 background-color: #f4627c;
+                transition: all .3s;
                 a{
                     color: #fff;
                     text-decoration: none;
@@ -31,6 +33,15 @@ main{
                         font-family: 'K2D', sans-serif;
                     }
                 }
+                &:hover{
+                    background-color: #d2405a;
+                }
+            }
+            .u8{
+                margin-top: 15px;
+                width: 200px;
+                font-size: 13px;
+                color: #aaa;
             }
         }
     }

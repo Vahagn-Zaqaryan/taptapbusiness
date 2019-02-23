@@ -8,6 +8,7 @@ import Start from './components/start';
 import Demo from './components/demo';
 import Price from './components/price';
 import Mail from './components/mail';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
     render() {
@@ -16,11 +17,13 @@ class App extends Component {
                 <nav className="w--full">
                     <div className="nav-box d--flex">
                         <div className="logo-box">
-                            <img src={Logo} alt="Logo" title="Logo"/>
+                            <Link to="/">
+                                <img src={Logo} alt="Logo" title="Logo"/>
+                            </Link>
                         </div>
                         <div className="vRel d--flex align-center">
                             <div className="vBox">
-                                MVP v1.1 α Release
+
                             </div>
                         </div>
                     </div>
